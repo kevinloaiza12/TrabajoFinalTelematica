@@ -16,7 +16,7 @@ spec:
       - name: frontend
         image: kevinloaiza12/bookstore-frontend:latest # Imagen del registro
         ports:
-        - containerPort: 3000
+        - containerPort: 80
         env:
         - name: NODE_ENV
           value: "production"
